@@ -1,5 +1,5 @@
 {
-    "name": "yajra/laravel-oci8",
+    "name": "tochka-developers/laravel-oci8",
     "description": "Oracle DB driver for Laravel 4|5 via OCI8",
     "keywords" : ["laravel4","laravel5","laravel","oracle","oci8","pdo_oci"],
     "license": "MIT",
@@ -14,7 +14,7 @@
         "ext-oci8": ">=2.0.0",
         "illuminate/support": "5.4.*",
         "illuminate/database": "5.4.*",
-        "yajra/laravel-pdo-via-oci8": "^1.3.1"
+        "tochka-developers/laravel-pdo-via-oci8": "^1.4"
     },
     "require-dev": {
         "mockery/mockery": "~0.9.4",
