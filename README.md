@@ -1,4 +1,4 @@
-# Oracle DB driver for Laravel 4|5 via OCI8
+# Oracle DB driver for Laravel 5.4 via OCI8
 
 ## Laravel-OCI8
 
@@ -18,24 +18,6 @@ Laravel-OCI8 is an Oracle Database Driver package for [Laravel](http://laravel.c
 ```
 $ composer require yajra/laravel-oci8:"5.4.*"
 ```
-
-## Quick Installation [Laravel 5.3]
-```
-$ composer require yajra/laravel-oci8:"5.3.*"
-```
-
-## Quick Installation [Laravel 5.2]
-```
-$ composer require yajra/laravel-oci8:"5.2.*"
-```
-
-## Quick Installation [Laravel 5.1]
-```
-$ composer require yajra/laravel-oci8:"5.1.*"
-```
-
-## Laravel 4.2 & 5.0 Users
-Please use [2.4](https://github.com/yajra/laravel-oci8/tree/2.4) branch.
 
 ## Service Provider
 Once Composer has installed or updated your packages you need to register Laravel-OCI8. Open up `config/app.php` and find the providers key and add:
@@ -73,20 +55,6 @@ This will copy the configuration file to `config/oracle.php`.
 
 And run your laravel installation...
 
-## [Laravel 5.2++] Oracle User Provider
-When using oracle, we may encounter a problem on authentication because oracle queries are case sensitive by default. 
-By using this oracle user provider, we will now be able to avoid user issues when logging in and doing a forgot password failure because of case sensitive search.
-
-To use, just update `auth.php` config and set the driver to `oracle`
-```php
-'providers' => [
-	'users' => [
-		'driver' => 'oracle',
-		'model' => App\User::class,
-	],
-]
-```
-
 ## Credits
 
 - [Arjay Angeles][link-author]
@@ -97,17 +65,14 @@ To use, just update `auth.php` config and set the driver to `oracle`
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-## Buy me a beer
-<a href='https://pledgie.com/campaigns/29516'><img alt='Click here to lend your support to: Laravel-OCI8 and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/29516.png?skin_name=chrome' border='0' ></a>
-
-[ico-version]: https://img.shields.io/packagist/v/yajra/laravel-oci8.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/tochka-developers/laravel-oci8.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/yajra/laravel-oci8/master.svg?style=flat-square
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/yajra/laravel-oci8.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/yajra/laravel-oci8.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/yajra/laravel-oci8.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/yajra/laravel-oci8
+[link-packagist]: https://packagist.org/packages/tochka-developers/laravel-oci8
 [link-travis]: https://travis-ci.org/yajra/laravel-oci8
 [link-scrutinizer]: https://scrutinizer-ci.com/g/yajra/laravel-oci8/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/yajra/laravel-oci8
