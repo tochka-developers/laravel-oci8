@@ -18,7 +18,7 @@
         "ext-oci8": ">=2.0.0",
         "illuminate/support": "5.4.*",
         "illuminate/database": "5.4.*",
-        "tochka-developers/laravel-pdo-via-oci8": "^1.4"
+        "tochka-developers/laravel-pdo-via-oci8": "1.4.*"
     },
     "require-dev": {
         "mockery/mockery": "~0.9.4",
